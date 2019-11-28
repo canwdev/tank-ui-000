@@ -19,7 +19,7 @@
 
 <script>
 export default {
-  name: 'MoorSwitch',
+  name: 'Switcher',
   data() {
     return {}
   },

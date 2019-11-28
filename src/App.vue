@@ -2,7 +2,7 @@
   <div>
     <HelloWorld msg="Just a demo UI library" />
 
-    <MySwitch v-model="isSwitch">开关:</MySwitch>
+    <Switcher v-model="isSwitch">开关:</Switcher>
 
     <p>
       <a
@@ -15,12 +15,12 @@
 
 <script>
 import HelloWorld from "./components/HelloWorld";
-import MySwitch from "./components/Switch";
+import Switcher from "./components/Switcher";
 
 export default {
   components: {
     HelloWorld,
-    MySwitch
+    Switcher
   },
   data() {
     return {
