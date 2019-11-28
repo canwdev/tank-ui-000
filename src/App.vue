@@ -1,27 +1,28 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <h1>Just a demo UI</h1>
+    
+    <MySwitch v-model="isSwitch">开关:</MySwitch>
+
+    <p>
+      <a v-if="isSwitch" href="https://juejin.im/post/5b45df255188251b1d474860">https://juejin.im/post/5b45df255188251b1d474860</a>
+    </p>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import MySwitch from "./components/switch/Switch";
 export default {
-  name: 'app',
+  data() {
+    return {
+      isSwitch: false
+    };
+  },
   components: {
-    HelloWorld
+    MySwitch
   }
-}
+};
 </script>
 
-<style lang="stylus">
-#app
-  font-family 'Avenir', Helvetica, Arial, sans-serif
-  -webkit-font-smoothing antialiased
-  -moz-osx-font-smoothing grayscale
-  text-align center
-  color #2c3e50
-  margin-top 60px
+<style>
 </style>
