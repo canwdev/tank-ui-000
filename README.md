@@ -1,5 +1,7 @@
 # tank-ui
 
+> Just a demo UI library
+
 ## Project setup
 ```
 yarn install
@@ -15,5 +17,8 @@ yarn serve
 yarn build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 参考
+
+- https://juejin.im/post/5b45df255188251b1d474860
+- https://github.com/frankxjkuang/custom-ui
+- https://xuebin.me/posts/43109cf3.html

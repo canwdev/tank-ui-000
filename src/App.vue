@@ -1,25 +1,31 @@
 <template>
   <div>
-    <h1>Just a demo UI</h1>
-    
+    <HelloWorld msg="Just a demo UI library" />
+
     <MySwitch v-model="isSwitch">开关:</MySwitch>
 
     <p>
-      <a v-if="isSwitch" href="https://juejin.im/post/5b45df255188251b1d474860">https://juejin.im/post/5b45df255188251b1d474860</a>
+      <a
+        v-if="isSwitch"
+        href="https://github.com/frankxjkuang/custom-ui"
+      >https://github.com/frankxjkuang/custom-ui</a>
     </p>
   </div>
 </template>
 
 <script>
-import MySwitch from "./components/switch/Switch";
+import HelloWorld from "./components/HelloWorld";
+import MySwitch from "./components/Switch";
+
 export default {
+  components: {
+    HelloWorld,
+    MySwitch
+  },
   data() {
     return {
       isSwitch: false
     };
-  },
-  components: {
-    MySwitch
   }
 };
 </script>
