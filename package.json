@@ -1,7 +1,11 @@
 {
   "name": "tank-ui",
   "version": "0.1.0",
-  "private": true,
+  "description": "Just a demo UI library",
+  "author": "canwdev",
+  "private": false,
+  "main": "index.js",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
