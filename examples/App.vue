@@ -14,14 +14,8 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
-import Switcher from "./components/Switcher";
 
 export default {
-  components: {
-    HelloWorld,
-    Switcher
-  },
   data() {
     return {
       isSwitch: false

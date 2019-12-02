@@ -1,5 +1,5 @@
-import HelloWorld from './src/components/HelloWorld'
-import Switcher from './src/components/Switcher'
+import HelloWorld from './HelloWorld'
+import Switcher from './Switcher'
 
 // 存储组件列表
 const components = [HelloWorld, Switcher]
@@ -18,7 +18,6 @@ const install = function (Vue) {
 if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue)
 }
-
 
 export {
   // 以下是具体的组件列表

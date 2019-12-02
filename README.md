@@ -33,7 +33,7 @@ new Vue({
 
 then you can use component in project globally
 
-```js
+```vue
 <template>
   <div>
     <HelloWorld/>
@@ -43,7 +43,7 @@ then you can use component in project globally
 
 ### Or use as single component
 
-```js
+```vue
 <template>
   <div>
     <HelloWorld/>
